@@ -1,0 +1,1 @@
+for /f %a in ('dir /b /s *.csv') do for /f "tokens=*" %b in %a) do echo %b,%a >> VolumeDocTypes.csv
